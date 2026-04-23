@@ -6,13 +6,13 @@ import { SiteLayout } from "@/components/SiteLayout";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Maya Okafor — Independent Designer & Art Director" },
+      { title: "Nikhil — Independent Designer & Art Director" },
       {
         name: "description",
         content:
-          "Portfolio of Maya Okafor, an independent designer crafting editorial-leaning brand and digital work.",
+          "Portfolio of Nikhil, an independent designer crafting editorial-leaning brand and digital work.",
       },
-      { property: "og:title", content: "Maya Okafor — Independent Designer" },
+      { property: "og:title", content: "Nikhil — Independent Designer" },
       {
         property: "og:description",
         content: "Editorial-leaning brand and digital design.",
@@ -27,13 +27,17 @@ function Index() {
     <SiteLayout>
       <section className="px-6 md:px-12 pt-20 md:pt-32 pb-24 max-w-6xl">
         <p className="text-sm uppercase tracking-[0.2em] text-muted-foreground mb-8">
-          Portfolio — 2020 / 2025
+          Nikhil — Portfolio 2020 / 2025
         </p>
         <h1 className="font-display text-5xl md:text-8xl leading-[0.95]">
-          Designing quiet,{" "}
-          <span className="italic text-accent">considered</span> brands for
-          ambitious teams.
+          Hi, I'm <span className="italic text-accent">Nikhil</span> — a
+          designer building bold, considered brands for ambitious teams.
         </h1>
+        <p className="mt-8 max-w-2xl text-lg text-muted-foreground leading-relaxed">
+          Eight years deep into independent practice, I partner with founders
+          and studios on identity systems, editorial direction, and digital
+          products that feel sharp, warm, and unmistakably theirs.
+        </p>
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
